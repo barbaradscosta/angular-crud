@@ -1,0 +1,25 @@
+.btn {
+    margin-top: 16px;
+    margin-bottom: 30px;
+    background-color: var(--purpleColor);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn:hover{
+    color: var(--grayColor);
+    transition: 0.5s;
+    background: var(--sweetPurpleColor);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}

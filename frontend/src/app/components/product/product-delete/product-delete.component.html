@@ -1,0 +1,30 @@
+<div class="container">
+    <h3>Excluir produto</h3>
+
+    <div class="containerForm">
+        <form>
+            <fieldset>
+                <input type="text" placeholder="Nome do produto" [value]="product.name" name="name" disabled>
+            </fieldset>
+
+            <fieldset>
+                <input type="text" placeholder="Preço (R$)" [value]="product.price" name="price" disabled>
+            </fieldset>
+
+            <fieldset>
+                <input type="text" placeholder="Descrição" [value]="product.description" name="description" disabled>
+            </fieldset>
+        </form>
+
+        <div class="buttons">
+            <button class="btn" (click)="deleteProduct()">
+                Excluir
+            </button>
+
+            <button class="btnCancel" (click)="cancel()">
+                Cancelar
+            </button>
+        </div>
+
+    </div>
+</div>

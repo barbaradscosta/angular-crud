@@ -1,0 +1,40 @@
+<nav>
+
+    <div class="sidenav">
+        <ul>
+            <a routerLink="/">
+                <li>
+                    <i class="material-icons">
+                        home
+                    </i>
+                    Início
+                </li>
+            </a>
+
+            <a routerLink="/products">
+                <li>
+                    <i class="material-icons">
+                        storefront
+                    </i>
+                    Produtos
+                </li>
+            </a>
+
+            <a routerLink="/products/create">
+                <li>
+                    <i class="material-icons">
+                        add
+                    </i>
+                    Cadastrar produto
+                </li>
+            </a>
+        </ul>
+
+    </div>
+
+
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+
+</nav>

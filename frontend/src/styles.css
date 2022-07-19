@@ -1,0 +1,20 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+
+:root {
+
+    --purpleColor: #5500d4ff;
+    --hotPurpleColor: #4400aaff;
+    --sweetPurpleColor: #e5d5ffff;
+    --grayColor: rgb(30, 30, 30);
+    --sweetGrayColor: #eeeeeeff;
+    --whiteColor: #e9e8e8ff;
+}

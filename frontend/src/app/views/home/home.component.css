@@ -1,0 +1,24 @@
+.container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin-bottom: 20px;
+    
+  }
+
+
+.container .title {
+    color: var(--grayColor);
+    line-height: 1;
+}
+
+.container .subtitle {
+    color: rgb(94, 94, 94);
+    font-size: 14px;
+    font-weight: 300;
+}

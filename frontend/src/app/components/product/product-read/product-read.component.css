@@ -1,0 +1,61 @@
+.container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.tab {
+  margin: auto;
+  background-color: rgb(246, 246, 246);
+  width: 90%;
+  font-size: 14px;
+}
+
+.mat-column-id {
+  width: 20px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.mat-column-name {
+  padding-right: 50px;
+}
+
+.mat-column-price {
+  width: 20px;
+  padding-right: 50px;
+}
+
+.mat-column-description {
+  padding-left: 20px;
+}
+
+.mat-row .mat-cell {
+  border-bottom: 1px solid transparent;
+}
+
+.mat-row:hover .mat-cell {
+  border-bottom: 0.08px solid rgb(194, 194, 194);
+}
+
+.titulo {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.edit {
+  margin-right: 25px;
+}
+
+.edit>i {
+  color: rgb(249, 141, 16);
+}
+
+.delete>i {
+  color: rgb(232, 53, 8);
+}

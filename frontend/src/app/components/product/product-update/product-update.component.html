@@ -1,0 +1,30 @@
+<div class="container">
+    <h3>Alterar produto</h3>
+
+    <div class="containerForm">
+        <form>
+            <fieldset>
+                <input type="text" placeholder="Nome do produto" [(ngModel)]="product.name" name="name">
+            </fieldset>
+
+            <fieldset>
+                <input type="text" placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
+            </fieldset>
+
+            <fieldset>
+                <input type="text" placeholder="Descrição" [(ngModel)]="product.description" name="description">
+            </fieldset>
+        </form>
+
+        <div class="buttons">
+            <button class="btn" (click)="updateProduct()">
+                Atualizar
+            </button>
+
+            <button class="btnCancel" (click)="cancel()">
+                Cancelar
+            </button>
+        </div>
+
+    </div>
+</div>
